@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>
+
+        </title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="AddTask.css">
+        <style type="text/css">
+            /* .messagebox{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    background-color: white;
+    width: 500px;
+    max-width: 80%;
+    text-align: center;
+	height: 400px;
+	pointer-events: all;
+} */
+.title,.content{
+    text-align: left;
+    display: block;
+}
+.title>input,.content>textarea{
+    width: 100%;
+    border-radius: 10px;
+    font-size: large;
+}
+.content>textarea{
+    height: 200px;
+}
+        </style>
+        <%-- <jsp:include page="taskManaging.jsp" flush="true"></jsp:include> --%>
+    </head>
+    <body>
+        
+        <div class="messagebox">
+                <label for="head"><h1>Add the Task</h1></label><br>
+            <div class="title">
+                <label for="title">Title</label><br>
+                <input type="text" name="title"/><br>
+            </div>
+            <div class="content">
+                <label for="content">Add Notes here..</label><br>
+                <textarea name="content"></textarea>
+                <input type="submit" value="Submit"/>
+            </div>
+        </div>
+    </body>
+</html>

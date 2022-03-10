@@ -1,0 +1,66 @@
+.Login-header{
+	padding-bottom: 20px;
+	display: flex;
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+.Login-header h1{
+	font-size: 4rem;
+	font-weight: bold;
+	width:80%;
+	margin-left:10%;
+}
+.Login-header button{
+	float:right;
+	font-size: x-large;
+	background: white;
+	margin-left:10%;
+	margin-right:10px;
+	margin-top:3px; 
+	height: 30px;
+}
+.Login-content{
+	text-align: center;
+	padding: 10px 16px;
+}
+.Login-content	input{
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid black;
+	width:100%;
+	border-radius: 2px;
+}
+.Login-content	input:focus{
+	outline: none;
+	box-shadow: 2px 2px 5px 5px gray;
+}
+.Login-content	input[type=submit]{
+	background: linear-gradient(to top right, #33ccff 0%, #ff99cc 100%);
+	color:white;
+	font-size: larger;
+	width:50%;
+	border-radius: 3px;
+	margin-top: 10px;
+}
+.Login-content input:hover{
+	box-shadow: 2px 2px 5px 5px gray;
+}
+.Login-content	input[type=submit]:hover{
+	font-size: 25px;
+	box-shadow: 2px 2px 5px 5px gray;
+}
+.Login-content .reference{
+	display: inline-flex;
+}
+.Login-content .reference p{
+	font-size: larger;
+	padding-right: 10px;
+}
+#log_error_mail,#log_error_password{
+	color: #D8000C;
+	width:100%;
+	text-align: left;
+	padding: 10px;
+	text-decoration: underline;
+}

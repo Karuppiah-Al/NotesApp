@@ -1,0 +1,64 @@
+.Register-header{
+	padding-bottom: 20px;
+	display: flex;
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+.Register-header h1{
+	font-size: 4rem;
+	font-weight: bold;
+	width:80%;
+	margin-left:10%;
+}
+.Register-header button{
+	float:right;
+	font-size: x-large;
+	background: white;
+	margin-left:10%;
+	margin-right:10px;
+	margin-top:3px; 
+	height: 30px;
+}
+.Register-content{
+	display: block;
+	/* text-align: center; */
+	padding: 20px 16px;
+	overflow: auto;
+}
+.Register-content input{
+	border-radius: 3px;
+	padding: 10px;
+	border-bottom: 1px solid black;
+	width: 46%;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.Register-content p{
+	text-align: left;
+	display: inline-flex;
+	position: relative;
+	width: 46%;
+	color: #D8000C;
+	text-decoration: underline;
+	padding-left:20px ;
+	/* border: 2px solid black;  */
+}
+.Register-content	input:focus{
+	outline: none;
+	box-shadow: 2px 2px 5px 5px gray;
+}
+.Register-content input[type=button],.Register-content input[type=submit]{
+	background: linear-gradient(to top right, #33ccff 0%, #ff99cc 100%);
+	width:100px;
+	font-size: larger;
+	color: white;
+	border-radius: 3px;
+	margin-top:15px ;
+	text-align: center;
+}
+.Register-content input[type=submit]{
+	margin-left: 30%;
+}
+.Register-content input:hover{
+	box-shadow: 2px 2px 5px 5px gray;
+}
